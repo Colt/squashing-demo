@@ -131,3 +131,19 @@ html {
   .main-content .section-dark.resume .fa-download {
     color: #1f2c6c;
   }
+
+  .main-content .section-color.services {
+    padding: 100px;
+    background-color: #43485c;
+    color: white;
+  }
+  
+  .main-content .section-color.services .title,
+  .main-content .section-color.services .subtitle {
+    color: white;
+  }
+  
+  .main-content .section-color.services i {
+    font-size: 3rem;
+    padding: 20px;
+  }
