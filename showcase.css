@@ -247,3 +247,107 @@ html {
     color: #43485c;
   }
   
+
+
+.main-content .section-title {
+    color: #43485c;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+  }
+  
+  
+  #toTop {
+    height: 50px;
+    width: 50px;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgba(31, 44, 108, 0.65);
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 2rem;
+    box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+  }
+  
+  #toTop a {
+    color: white;
+  }
+  
+  #toTop:hover {
+    background-color: #43485c;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+    background-color: rgba(245, 245, 245, 0);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #43485c;
+  }
+  
+  body.preloader-site {
+    overflow: hidden;
+  }
+  
+  .preloader-wrapper {
+    height: 100%;
+    width: 100%;
+    background: #1f2c6c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+  }
+  
+  .preloader-wrapper .preloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 120px;
+  }
+  
+  .white
+  {color:ghostwhite}
+  
+
+
+.main-content .section-light.about-me {
+    padding-bottom: 100px;
+}
+  
+.main-content .section-light.about-me .is-larger {
+font-size: 1.2rem;
+}
+
+.main-content .section-light.about-me .right-image img {
+border-radius: 11px;
+margin: 20px;
+box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+}
+
+
+@media (max-width: 599px) {
+    .main-content .section-light.about-me .about-links {
+      text-align: center;
+    }
+  }
+  
+
+  @media (max-width: 599px) {
+    .main-content .section-light.about-me .right-image img {
+      margin: auto;
+    }
+  }
+  
