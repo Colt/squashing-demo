@@ -91,3 +91,43 @@ html {
   transition: all .2s ease-in-out;
   border-bottom: 2px solid #1f2c6c;
 }
+
+.main-content {
+    padding-top: 2rem;
+    color: #3c4172;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .main-content .section-dark {
+    background-color: #f0f3f5;
+    padding: 60px 0px;
+  }
+  
+  .main-content .section-dark.resume {
+    height: 400px;
+    padding-top: 100px;
+  }
+  
+  @media (max-width: 599px) {
+    .main-content .section-dark.resume {
+      padding-top: 75px;
+    }
+  }
+  
+  .main-content .section-dark.resume .title {
+    padding: 20px;
+  }
+  
+  .main-content .section-dark.resume button {
+    border: 2px solid #43485c;
+    background: white;
+    color: #43485c;
+    height: 50px;
+    width: 250px;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .main-content .section-dark.resume .fa-download {
+    color: #1f2c6c;
+  }
