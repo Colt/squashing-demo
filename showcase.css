@@ -195,3 +195,25 @@ html {
     padding: 10px;
   }
     
+
+
+.main-content .section-light.contact {
+    padding: 200px;
+  }
+  
+  .main-content .section-light.contact button {
+    width: 100%;
+    background-color: #43485c;
+    color: white;
+    height: 50px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  @media (max-width: 599px) {
+    .main-content .section-light.contact {
+      padding: 60px 20px;
+    }
+  }
+  
