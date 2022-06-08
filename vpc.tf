@@ -1,0 +1,1 @@
+This is vpc in us region.
